@@ -333,7 +333,9 @@
 % param 1: percent width, from 0 to 1
 \newcommand{\cvqrcode}[1] {
 	\begin{center}
+	\href{https://www.kristoferpearson.com}{
 		\includegraphics[width={#1}\mpwidth]{qrcode}
+		}
 	\end{center}
 }
 
@@ -357,26 +359,24 @@
 %---------------------------------------------------------------------------------------
 %	META IMAGE
 %----------------------------------------------------------------------------------------
-\includegraphics[width=\linewidth]{untitled.jpg}	%trimming relative to image size
+\includegraphics[width=\linewidth]{me.jpg}	%trimming relative to image size
 
 %---------------------------------------------------------------------------------------
 %	META SKILLS
 %----------------------------------------------------------------------------------------
 \cvsection{SKILLS}
 
-\cvskill{Python} {5+ yrs} {1} \\[-2pt]
+\cvskill{SQL Server} {8+ yrs} {1} \\[-2pt]
 
-\cvskill{Ansible} {5+ yrs} {1} \\[-2pt]
+\cvskill{Java} {3+ yrs} {1} \\[-2pt]
 
-\cvskill{Linux} {5+ yrs} {1} \\[-2pt]
+\cvskill{Javascript} {3+ yrs} {0.69} \\[-2pt]
 
-\cvskill{Open Source Tools} {5+ yrs} {1} \\[-2pt]
-
-\cvskill{Django} {5+ yrs} {0.8} \\[-2pt]
+\cvskill{Python} {4+ yrs} {0.8} \\[-2pt]
 
 \cvskill{Html/CSS} {3+ yrs} {0.72} \\[-2pt]
 
-\cvskill{Javascript} {3+ yrs} {0.69} \\[-2pt]
+\cvskill{React} {3+ yrs} {0.69} \\[-2pt]
 
 \cvskill{GIT} {3+ yrs} {1} \\[-2pt]
 
@@ -385,9 +385,9 @@
 \vfill\null
 \cvsection{CONTACT}
 	
-\icontext{MapMarker}{12}{Example St. 1\\12345 Somewhere}{black}\\[6pt]
-\icontext{MobilePhone}{12}{+49 178 910 11 12 13}{black}\\[6pt]
-\iconemail{Envelope}{12}{contact@example.com}{contact@example.com}{black}\\[6pt]
+\icontext{MapMarker}{12}{70 Endicott St. \#601\\Norwood, MA 02062}{black}\\[6pt]
+\icontext{MobilePhone}{12}{508-208-0210}{black}\\[6pt]
+\iconemail{Envelope}{12}{pearsonk27@gmail.com}{pearsonk27@gmail.com}{black}\\[6pt]
 
 \vfill\null
 \cvqrcode{0.7}
@@ -399,20 +399,30 @@
 \cvsection{EDUCATION}
 
 \cvmetaevent
-{2009 - 2011}
-{M. Sc. Physics.}
-{Universität Bonn}
-{Main thematic priority of those master studies was numerical time series analysis of non-linear dynamical systems. Besides data analysis and transformation, great importance was attached to fast algorithms and efficient software architecture.
+{2010 - 2014}
+{Boston College}
+{Bachelor of Arts - Economics, Minor in Mathematics}
+{Main curriculum priority was in quantitative/analytical courses such as Econometrics, Statistics, Probability, Integrated Math and Physics, and Sports Econometrics. \\
 
-In the master thesis a numerical approach for the detection of the direction of interaction was proposed. Analysis of this new approach was performed with the help computer simulations to find out its limits and to compare it to another commonly used approaches.
+Many courses required aptitude in programming languages and software such as STATA, Excel, R, Python, LaTeX and more. \\
 
-This numerical approach was highly optimised for cluster computing and implemented in c++ . For those purposes a distributed computing cluster had to be set up and administrated.}
+Chosen to be a Research Assistant where in empirical research on media and digital imagery markets, including research on industry background and data processing and analysis. \\
+
+Also participated in the Investment Club, Lacrosse Club, and studied abroad.}
+
+\cvsection{AWARDS}
 
 \cvmetaevent
-{2006 - 2009}
-{B. Sc. Physics.}
-{Universität Bonn}
-{The topic for the bachelor's thesis was 'Feshbach resonance'. A numerical application was built to calculate the diagrams.}
+{2018}
+{Employee of the Year Award}
+{}
+{Awarded for my integral role in improving the product offerings to fit the largest client's needs.}
+
+\cvmetaevent
+{2018}
+{Patrick J Martin Committe Chair}
+{}
+{Identified employees throughout the organization who displayed talent and passion in their given roles, working with 5 committee members to select award recipient.}
 
 \vfill\null
 \cvqrcode{0.7}
@@ -424,34 +434,63 @@ This numerical approach was highly optimised for cluster computing and implement
 \cvsection{CERTIFICATIONS}
 
 \cvmetaevent
-{LPIC 1 - Linux administrator}
+{OCA - Java SE 8 Programmer}
 {}
 {}
-{Certificate issued by the Linux Professional Institute to prove abilities in Linux administration}
+{Issued October 2020}
+
+\cvsection{COURSES}
 
 \cvmetaevent
-{IBM InfoSphere Advanced DataStage Essentials}
+{2020}
+{Java for Data Scientists Essential Training}
 {}
 {}
-{Intense course about the ETL technologies and the use of IBM DataStage.}
 
 \cvmetaevent
-{Jump Start Program}
+{2020}
+{Learning JDBC}
 {}
 {}
-{Two months full-time training in object oriented programming in Java SE/EE, software development, testing and modern enterprise web-frameworks. Other topics were object oriented design patterns, test-driven development, SQL-databases and webservers in Java environment (Tomcat / Glasfish / JBoss / Jety)}
-
 
 \cvmetaevent
-{Online Classes}
 {}
 {}
-{It is important for me to stay up to date with the newest topics in the field of IT. In DevOps it is also important to have a general overview and a hands-on experience on them. Therefore, besides intense article studies, I also keep myself up to date with online classes.}
+{To find the most up-to-date list of my courses I've taken, visit my LinkedIn linked to from my portfolio at kristoferpearson.com or follow my QR Code on this resume.}
+{}
 
-\vfill
+\vfill\null
 \cvqrcode{0.7}
 
 \newpage
+\cvsection{PERSONAL PROJECTS}
+
+\cvmetaevent
+{WebExecuter}
+{}
+{}
+{Project I use to automatically pay my town utility/cable bills. UI starts jobs on my Raspberry Pi that hosts the database, frontend, and scripts}
+
+\cvmetaevent
+{cheatsheet.io}
+{}
+{}
+{CRUD app utilizing Java Spring Boot, React, and Postgresql. The frontend and backend are each standalone projects.}
+
+\cvmetaevent
+{wordlecheat}
+{}
+{}
+{My attempt at finding the optimal strategy at Wordle. The application "plays the game" over and over again with different strategies, recording what happens and analyzes the data}
+
+\cvmetaevent
+{}
+{}
+{These projects can be found on my Github page. You can get there by going to my portfolio at kristoferpearson.com or following my QR Code on this resume.}
+{}
+
+\vfill
+
 \mbox{} % hotfix to place qrcode on the bottom when there are not other elements
 \vfill
 \cvqrcode{0.7}
@@ -463,9 +502,9 @@ This numerical approach was highly optimised for cluster computing and implement
 %----------------------------------------------------------------------------------------
 \fcolorbox{white}{darkcol}{\begin{minipage}[c][3.5cm][c]{1\mpwidth}
 	\begin {center}
-		\HUGE{ \textbf{ \textcolor{white}{ \uppercase{ ILYA RUMYANTSEV } } } } \\[-24pt]
+		\HUGE{ \textbf{ \textcolor{white}{ \uppercase{ KRIS PEARSON } } } } \\[-24pt]
 		\textcolor{white}{ \rule{0.1\textwidth}{1.25pt} } \\[4pt]
-		\large{ \textcolor{white} {Freelance Automation  Consultant and Developer} }
+		\large{ \textcolor{white} {Software Engineer} }
 	\end {center}
 \end{minipage}} \\[14pt]
 \vspace{-12pt}
@@ -476,11 +515,11 @@ This numerical approach was highly optimised for cluster computing and implement
 \vfill\null
 \cvsection{PROFILE}
 
-\cvtext{IT Consultant with strong theoretical skills and a passion for OpenSource sofware.\\
+\cvtext{Software Engineer with a strong technical and analytical skills and professional demeanor.\\
 
-DevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both.\\
+Strong interest in big data, automated QA, and application development.\\
 
-Customer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams.\\
+Has worked in many different companies with many different methodologies and personalities. Adapting while keeping the same likable personality and positive attitude is an undeniable strength.\\
 
 }
 
@@ -491,153 +530,104 @@ Customer-oriented and structured method of working, focused on quality and maint
 \cvsection{WORK EXPERIENCE}
 
 \cvevent
-	{Sep 15 - NOW}
-	{DevOps/FullStack developer}
-	{Research and Development}
-	{A large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workfows for role based access, life time and monitoring had to be established}
+	{Apr 2022 - NOW}
+	{SBE Vision}
+	{Software Engineer}
+	{A large micro-service architecture built with Java Spring Boot applications orchestrated by Kubernetes.}
 	{\cvlist{
-		\item Creation of a web portal for role- and rights management
-		\item Establishing a connection to the existing MicroFocus role solution
-		\item Development of new role-based workfows and processes, as well as training and support
-		\item Maintenance of existing infrastructure
+		\item Creation of a full-trip tests of the stack managed by a REST API application to host requests called in a larger Postman Collection hit regularly by a Newman Runner.
+		\item Maintain the Microsoft Excel Adapter/Plugin
+		\item Build out reporting for Elasticsearch
 	}}
 	{\cvlist {
-		\item Django for the roles- and rights management tool backend (backend is a REST interface)
+		\item Java Spring Boot for all backend services
+		\item SQL Server and MongoDB for data persistence
 		\item Angular for the easy frontend interaction
-		\item HTML5/CSS3/Bootstrap3 for the frontend
-		\item Ansible + Docker for 1-click deployments
+		\item Kubernetes + Docker for deployments
+		\item gRPC, REST API, and Rabbit for service communication
+		\item Git for versioning
+		\item Git Lab for CI/CD
+	}}
+	{}
+
+\vfill\null
+\cvevent
+	{2019 - 2022}
+	{Vestmark}
+	{Full Stack Software Engineer}
+	{Application development on a Java Spring Boot monolithic proprietary investment platform.}
+	{\cvlist{
+		\item Correct bugs in Vestmarkone during release level testing
+		\item Build Selenium tests in the separate Python project
+		\item Fixes to client specific data integrations utilizing a proprietary data manipulation API
+	}}
+	{\cvlist {
+		\item Java, SQL Server, and React/Javascript for application development
+		\item Terragrunt, AWS and Docker for application deployment
+		\item Python using the Selenium library for automated web testing
+		\item Apache Camel and Karaf for Data Integration micro-services development
+		\item Git for versioning
+		\item Jenkins for CI/CD
 	}}
 	{\cvlist{
-		\item A web based tool for an intuitive role assignment and administration
-		\item Online overview of company structures, projects, etc
-		\item Tools for role review, reporting and troubleshooting
+		\item Development of new data integration framework using Apache Camel and Karaf
+		\item Promoted from Associate SWE to SWE in January 2021
+		\item Various user stories implementing Product Level Security Substitutes
 	}}
 
 \vfill\null
 \cvevent
-	{Jan 15 - Sep 15}
-	{DevOps engineer}
-	{Research and Development}
-	{Responsible for infrastructure architecture with regard on the future development and tool selection in the field of identity and access management}
+	{2017 - 2019}
+	{Connance / Waystar}
+	{Senior Data Integration Engineer}
+	{Develop solutions to solve hospital client revenue cycle needs.}
 	{\cvlist{
-		\item Selection of future-proof tools for a large infrastructure
-		\item Infrastructure migration into a cloudstack cloud
-		\item Quality assurance in terms of documentation
-		\item Tool development for infrastructure overview
-		\item Development of Ansible modules for client
+		\item Code and test client specific work aiming to manage sensitive hospital patient account data
+		\item Build tools and automation meant to increase the effectiveness and efficiency of the team
+		\item Build and design new frameworks for managing common client needs, train engineers on how to use and improve the framework
 	}}
 	{\cvlist {
-		\item Python for custom tool development
-		\item Ansible for infrastructure migration and cloud configuration
-		\item SLES12
-		\item Django for Visualization
+		\item Transact SQL for report building, database updates, and functional logic in business rules
+		\item SSIS and Powershell for data integration jobs
+		\item C\# and Perl for data manipulation during data ingress and egress
+		\item Windows Task Scheduler and SQL Server Agent for job scheduling
+		\item TFS for versioning
 	}}
 	{\cvlist{
-		\item Ansible module for SLES12 System + Package registration
-		\item Python tool for ACL-administration in cloud
-		\item Fully automated migration of old systems into cloud with Ansible playbooks/roles
-		\item Django tool on LDAP - Schema Review
+		\item Assisted in building and improving ActionRules - a replacement for Connance's business rules engine. ActionRules is a configurable batch SQL script moving accounts to various debt collection stages according to various actions taken, inclusion criteria, and exclusion criteria specified by the client in the UI.
+		\item Built out UI utilizing MVC framework
+		\item Built and helped test performance improvements needed to handle the load given by Waystar's largest client, who is 10 times larger than any other client serviced.
+		\item Made Production Engineer Team Lead (3/2019)
+		\item Won Employee of the Year award (12/2018)
+		\item Patrick J Martin Award Committee Chair (9/2018)
 	}}
 
 \vfill\null
 \cvevent
-	{Mar 14 - Jan 15}
-	{Systems Analyst}
-	{Research and Development}
-	{Responsible for infrastructure architecture / automaton as well as custom tool development on a project for directory services and identity / access management in a large heterogeneous environment.}
+	{2014 - 2017}
+	{Analyst / Product Manager}
+	{Definitive Healthcare}
+	{Key technical contributor on many projects building out the company's product offerings and increasing efficiency and effectiveness in various company operations.}
 	{\cvlist{
-		\item Design and implementation of update and deployment process automaton
-		\item Quality assurance by design of infrastructure monitoring, centralized logging solutions and documentation
-		\item Customized tool creation for ldap operations
-		\item Installation and maintenance of single sign on solutions
-		\item Customer support in ldap / infrastructural / programming concerns
+		\item Managed, assisted, and trained (7) analysts in the methodology used to build the proprietary user-friendly web-based application, which consolidates various types of healthcare provider focused data to aid healthcare focused industries.
+		\item Managed and assisted the development and maintenance of software.
+		\item Delegated or solved all product errors. Quickly identified the source of any errors, determined the level of skill needed to solve the problem, and assigned accordingly.
+		\item Team lead for all new technology, product rollouts (one product rollout per month), coding methodology, and database administration.
 	}}
 	{\cvlist {
-		\item Ansible for infrastructure automaton and configuration management
-		\item Python for custom Tool development
-		\item nxLog + rsyslog + graylog for logging infrastructure
-		\item NOVELL eDirectory
-		\item Shibboleth as identity Provider combined with ldap
-		\item SLES11
-		\item Git for configuration and documentation versioning
+		\item SQL Server for ETL, report generation and business logic
+		\item Windows Command line
+		\item SSIS, C\#, Visual Basic for ETL and report generation
+		\item Visual Studio for UI development
+		\item Powershell for reporting job execution
+		\item ASP.NET, HTML, CSS for UI development and data entry form development
+		\item Microsoft Access for data entry form development
 	}}
 	{\cvlist{
-		\item Drastically accelerated (~20x faster) the update process and improved its reliability by introduction of centralized configuration management
-		\item Extended the python-ldap library with interfaces for simplified access and modification of LDAP-Objects and searches
-		\item  Introduction of a complete and reliable centralized logging solution including log filtering and alerting for both windows and Linux systems
-	}}
-
-\vfill\null
-\cvevent
-	{Sep 13 - Mar 14}
-	{Systems Analyst}
-	{Tourism industry}
-	{Responsible for data transformation and tool customization on a migration (legacy c++ code from Solaris to Linux systems) project. The tasks include}
-	{\cvlist{
-		\item Tool development for identification of critical spots in code
-		\item Legacy code analysis
-		\item Quality assurance
-		\item Department-wide training in python
-		\item Consulting in topics of migration to Git
-	}}
-	{\cvlist {
-		\item Python
-		\item Git
-		\item Linux (Debian)
-	}}
-	{\cvlist{
-		\item Implementing code coverage and dynamic code checker for c++ legacy source code based on gcov
-		\item Introduction of Python + Environment in project
-	}}
-
-\vfill\null
-\cvevent
-	{Oct 12 - Sep 13}
-	{Systems Analyst}
-	{Tourism industry}
-	{Responsible for the infrastructure including performance and quality assurance on a large social media project.}
-	{\cvlist{
-		\item Organization and care of a cloud network (Debian systems)
-		\item Support for software developers
-		\item Configuration of open source tools for code quality and documentation
-		\item Implementation of performance checks
-		\item Implementation of automated reports on code quality and performance
-	}}
-	{\cvlist {
-		\item Python + Django for tool development
-		\item Sonar as static and dynamic tool for code analysis
-		\item OpenLDAP for user rights management
-		\item JIRA as the issue tracking/SCRUM tool
-	}}
-	{\cvlist{
-		\item Customized wiki and documentation application for developers with Jenkins and Git integration
-		\item Django web application to test the product performance using selenium tests in background with customizable tests / test
-environments ad a graphical evaluation using the jqPlot library (also Jaiascript / jQuery)
-		\item Improvement of the overall code quality by raising test coverage (+ \~30\%) and identification + elimination of potential code flaws
-	}}
-
-\vfill\null
-\cvevent
-	{Oct 11 - Oct 12}
-	{IT Consultant}
-	{Accenture Tech. Solutions}
-	{Large public service project with the goal to establish a platform for handling of finance processes with a very high number of transactions. Main focus was the migration of legacy data, by assuring data quality and transformation into various formats}
-	{\cvlist{
-		\item Customer consulting with regard to loading / unloading interfaces
-		\item Definition of requirements for transformation of legacy data
-		\item Implementation of algorithms for data transformation
-		\item Tool development for secure data transport
-		\item Tool development for tests of data quality/interface implementation
-	}}
-	{\cvlist {
-		\item Standard Linux tools, such as awk, sed, grep, ...
-		\item Python for in-depth data analysis
-		\item Java for transport layers
-		\item IBM DataStage
-	}}
-	{\cvlist{
-		\item Definition of uniform standards
-		\item Introduction of the standard Linux stack as global toolset for data analysis in project
+		\item Developed SSIS package and method to build automatically refreshing reports for clients, significantly improving efficiency of company FTP site development process (estimated 75\% less time needed to complete/maintain FTP sites). Process utilized SQL Server view generation and a C\# script.
+		\item Developed re-useable PowerShell script that loads data to a client's SFTP server that retries after connection failures, logs output to a .txt file, emails client to confirm data load completion, can be set to run every month, drastically cutting down on employee work necessary
+		\item Developed a Master Data matching process using a fuzzy lookup, used to link client data to company data. Regression analysis built into the script to weigh methods used by success rate.
+		\item Optimized the company's Population Health queries by adding primary keys and indexes to the tables, as well as redesigning the queries so that there is a high amount of parallelism. Prior to changes, 1 query took 2 minutes, 4 of the same queries at once took 8 minutes, after the changes, 1 query took 4 seconds, 4 of the same queries at once took 8 seconds.
 	}}
 
 % hotfixes to create fake-space to ensure the whole height is used
