@@ -45,3 +45,7 @@ infographics/Font-Awesome-SVG-PNG/*
 .idea/inspectionProfiles/Project_Default.xml
 
 out/
+
+#mac os
+.DS_Store
+*.pdf alias
